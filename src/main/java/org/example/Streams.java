@@ -7,11 +7,11 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 interface ValueToCharacterFI{
-    abstract char convertToChar(int value);
+    char convertToChar(int value);
 }
 
 interface DoubleToIntegerFI{
-    abstract int convertToInt(double value);
+    int convertToInt(double value);
 }
 
 public class Streams {
